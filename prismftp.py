@@ -14,7 +14,7 @@ savedir = "E:/konrad/Projects/usgs/prosper-nhd/data/ppt/raw" #directory to save 
 os.chdir(savedir) #change local directory to save directory
 
 startyear = 1895 #year to start downloading precipitation data
-endyear = 1980 #last year to download data
+endyear = 2016 #last year to download data
 
 for year in range(startyear, endyear+1): #loop through years
     if year > 1980:
